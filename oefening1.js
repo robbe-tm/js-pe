@@ -57,12 +57,12 @@ function validatieForm() {
     function checkFields(form, field, melding) {
 
         x = document.forms[form][field].value;
-        if (field == "Land") {
+        if (field == "land") {
             if (x == "Kies een land") {
                 waarschuwingen += "\n" + melding;
                 return false;
             }
-        } else if (field == "Provincie") {
+        } else if (field == "provincie") {
             if (x == "Kies een provincie") {
                 waarschuwingen += "\n" + melding;
                 return false;
