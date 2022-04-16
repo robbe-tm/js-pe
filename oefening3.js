@@ -30,7 +30,7 @@ function oefening3() {
         } else {
             const div = document.createElement("div");
             div.innerHTML = '<h3>' + questions[i] + '</h3>' +
-                "You answered: " + antwoorden[i] + "<br>" + "Correct answer: " + answers[i];
+                "You answered: " + antwoorden[i] + "<br>" + "Correct answer was " + answers[i];
             div.style.backgroundColor = "red";
             div.style.color = "white";
             div.style.textAlign = "center";
