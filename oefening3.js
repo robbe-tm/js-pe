@@ -25,7 +25,7 @@ function oefening3() {
             div.style.backgroundColor = "green";
             div.style.color = "white";
             div.style.textAlign = "center";
-            div.classList.add("m-2");
+            div.classList.add("m-1");
             document.querySelector(".oefening3").appendChild(div);
         } else {
             const div = document.createElement("div");
@@ -34,7 +34,7 @@ function oefening3() {
             div.style.backgroundColor = "red";
             div.style.color = "white";
             div.style.textAlign = "center";
-            div.classList.add("m-2");
+            div.classList.add("m-1");
             document.querySelector(".oefening3").appendChild(div);
         }
     }
