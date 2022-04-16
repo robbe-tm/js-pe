@@ -45,6 +45,7 @@ let oefening2 = () => {
                     newRow.appendChild(newVakItem);
                 } else {
                     let newVakItem = document.createElement("td");
+                    newVakItem.style.textAlign = "center";
                     newVakItem.style.width = (100 / rainbow.length) + "%";
                     newVakItem.addEventListener("click", function() {
                         let kleur = "Dit is geen kleur.";
